@@ -37,7 +37,7 @@ namespace поток_Пример_ProDave
             while (true)
             {
                 Thread.Sleep(70);
-                Console.Write("70");
+                Console.Write("-d70-");
             }
             
         }
@@ -47,7 +47,7 @@ namespace поток_Пример_ProDave
             while (true)
             {
                 Thread.Sleep(80);
-                Console.Write("80");
+                Console.Write("-d80-");
             }
 
         }
@@ -57,7 +57,7 @@ namespace поток_Пример_ProDave
             while (true)
             {
                 Thread.Sleep(1000);
-                Console.Write("1C");
+                Console.Write("-d1C-");
             }
 
         }
@@ -67,7 +67,7 @@ namespace поток_Пример_ProDave
             while (true)
             {
                 Thread.Sleep(200);
-                Console.Write("200");
+                Console.Write("-d200-");
             }
 
         }

@@ -15,6 +15,10 @@ namespace поток_Пример_ProDave
             Thread thds = new Thread(ds.StartDS);
             thds.Start();
 
+            clStan st = new clStan();
+            Thread thst = new Thread(st.StartStan);
+            thst.Start();
+
             while (true)
             {
                 Thread.Sleep(5000);
