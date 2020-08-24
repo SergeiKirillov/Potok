@@ -11,6 +11,8 @@ namespace поток_Пример_ProDave
     {
         public void StartDS()
         {
+            //Начало
+            
             Thread ds70 = new Thread(dsPLC);
             ds70.Start();
 
